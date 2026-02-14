@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 body {
   margin: 0;
   height: 100vh;
@@ -5,7 +7,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  background: #f8f6f1;
+  background: radial-gradient(circle, #fff5f7 0%, #fce4ec 100%);
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
@@ -20,11 +22,12 @@ body {
 }
 
 #shine {
+  font-family: 'Dancing Script', cursive;
   font-size: 9vw;
   font-weight: bold;
   line-height: 1.1;
   letter-spacing: 2px;
-  background: linear-gradient(90deg, #222 0%, #fff 50%, #222 100%) 0 0 no-repeat;
+  background: linear-gradient(90deg, #d81b60 0%, #f06292 25%, #ffd700 50%, #f06292 75%, #d81b60 100%) 0 0 no-repeat;
   background-size: 150px 100%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -53,7 +56,7 @@ body {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
-  border: 8px solid #f2f2f2;
+  border: 8px solid #fff;
   box-shadow: 0 0 4px #0007;
   z-index: 2;
   animation: slide var(--d) infinite, z-order var(--d) infinite steps(1);
